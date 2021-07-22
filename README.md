@@ -1,2 +1,2 @@
 # HTML-CSS-Projects
-Projects containing these two languages will be in here! 
+Projects containg HTML and CSS will be in this repository 
