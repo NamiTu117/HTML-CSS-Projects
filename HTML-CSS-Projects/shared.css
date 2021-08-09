@@ -130,7 +130,7 @@ section {
 }
 
 /*HOME SECTION STYLE*/
-#home {
+#HOME {
     background: url("./Projecto/images/homeworld.jpg") no-repeat 50% 50%;
     background-attachment: fixed;
     -webkit-background-size: cover;
