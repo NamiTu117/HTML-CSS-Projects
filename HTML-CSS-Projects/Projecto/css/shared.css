@@ -131,7 +131,7 @@ section {
 
 /*HOME SECTION STYLE*/
 #HOME {
-    background: url("./Projecto/images/homeworld.jpg") no-repeat 50% 50%;
+    background: url("../images/homeworld.jpg") no-repeat 50% 50%;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -337,4 +337,4 @@ section {
     .container {
         width: 1170px;
     }
-}*/
+}
