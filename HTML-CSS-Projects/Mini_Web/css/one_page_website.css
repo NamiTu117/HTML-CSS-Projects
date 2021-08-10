@@ -1,0 +1,18 @@
+h1, 
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 110%;
+    text-align: left; 
+}
+
+nav {
+    display:block; 
+}
+
+.container {
+    border: 20% black; 
+    border-radius: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    width: 20%;
+}
