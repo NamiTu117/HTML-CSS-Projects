@@ -65,6 +65,100 @@ body {
 		
 	</div>
 	</section> 
+
+	<!--images used to open light box--> 
+	<div class="row">
+		<div class="column">
+			<img src="./Pics/second_3.png" onclick="openModal();currentSlide(1)"
+			class="hover-shadow">
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="column">
+			<img src="./Pics/program.jpg" onclick="openModal();currentSlide(2)"
+			class="hover-shadow">
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="column">
+			<img src="./Pics/worldrecord.png" onclick="openModal();currentSlide(3)"
+			class="hover-shadow">
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="column">
+			<img src="./Pics/osiris.jpg" onclick="openModal();currentSlide(4)"
+			class="hover-shadow">
+		</div>
+	</div>
+
+	<!--lightbox-->
+	<div id="myModal" class="modal" style= "display: block;">
+		<span class="close cursor" onclick="closeModal()">&times;</span>
+		<div class="modal-content">
+
+			<div class="mySlides">
+				<div class="numbertext">1/4</div>
+				<img src ="./Pics/second_3.png" style="width: 100%">
+			</div>
+
+			<div class="mySlides">
+				<div class="numbertext">2/4</div>
+				<img src ="./Pics/program.jpg" style="width: 100%">
+			</div>
+
+			<div class="mySlides">
+				<div class="numbertext">3/4</div>
+				<img src ="./Pics/worldrecord.png" style="width: 100%">
+			</div>
+
+			<div class="mySlides">
+				<div class="numbertext">4/4</div>
+				<img src ="./Pics/osiris.jpg" style="width: 100%" >
+			</div>
+
+			<!---next/prev controls-->
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			<!--end of contrls -->
+
+			<!--caption text-->
+			<div class="caption-container">
+				<p id="caption"></p>
+			</div>
+
+			<!--Thumbnail image controls-->
+			<div class="column">
+				<img class="demo cursor active" src="./Pics/second_3.png" style="width:100%" onclick="currentSlide(1)"
+				alt="The Second Renaissance">
+			</div>
+
+			<div class="column">
+				<img class="demo cursor active" src="./Pics/program.jpg" style="width:100%" onclick="currentSlide(1)"
+				alt="The Second Renaissance">
+			</div>
+
+			<div class="column">
+				<img class="demo cursor active" src="./Pics/worldrecord.png" style="width: 100%" onclick="currentSlide(1)"
+				alt="The Second Renaissance">
+			</div>
+
+			<div class="column">
+				<img class="demo cursor active" src="./Pics/matriculated.png" style="width: 100%" onclick="currentSlide(1)"
+				alt="The Second Renaissance">
+			</div>
+
+
+
+
+
+
+		</div>
+	</div>
+
 	
 	<section>
 		<div id="ACCOUNT">
@@ -81,6 +175,7 @@ body {
 		</div>
 		</div>
 	</section>
+<script src="./JS/one_page_website.js"></script>
 </body>
 
 <html>
